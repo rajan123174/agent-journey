@@ -1,0 +1,7 @@
+Make a project in four commands
+
+Install and use a package
+uv add python-dotenv      # install into .venv and record it in pyproject.toml
+uv run main.py            # run any file with this project's packages
+uv remove python-dotenv   # uninstall
+uv sync                   # rebuild .venv from the lock file (new laptop, fresh clone)
